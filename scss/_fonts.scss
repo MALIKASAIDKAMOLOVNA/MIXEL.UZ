@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/GothamPro/gothampro.ttf');
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito/Nunito-Black.woff');
+}
+@mixin font($fs, $lh, $fw){
+    font-size: $fs + px;
+    line-height: $lh + px;
+    font-weight: $fw;
+}

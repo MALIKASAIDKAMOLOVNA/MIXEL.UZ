@@ -1,0 +1,10 @@
+@mixin tayyorflex(){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin tayyorflexcenter(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
